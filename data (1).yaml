@@ -1,0 +1,15 @@
+
+path: ../content/drive/MyDrive/scripts/dataset
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 3
+names: ['mildew', 'rose_P01', 'rose_R02'] #Classes para detectar as folhas que estão com doenças
+
+roboflow:
+  workspace: roboflow-100
+  project: leaf-disease-nsdsr
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/roboflow-100/leaf-disease-nsdsr/dataset/2
